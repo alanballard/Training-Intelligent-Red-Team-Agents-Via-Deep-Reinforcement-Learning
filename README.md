@@ -11,17 +11,17 @@ This repository contains four folders. The contents of the folders will need to 
 
 /home/alanubuntu/anaconda3/envs/spinningup/lib/python3.6/site-packages/gym/envs/
 
-This folder contains a single file, \__init\__.py.
+This folder contains a single file, \_\\_init\_\\_.py.
 
-After installing Spinning Up, the simulation environment needs to be registered in the \__init\__.py file in the .../gym/envs/ folder. This \__init\__.py contains the code that needs to be registered, or you can can just copy/paste this file over the existing \__init\__.py file. This registration code contains default input values for the simulation. It's not necessary to change any of these values as they will all be specified at run-time.
+After installing Spinning Up, the simulation environment needs to be registered in the \_\_init\_\_.py file in the .../gym/envs/ folder. This \_\_init\_\_.py contains the code that needs to be registered, or you can can just copy/paste this file over the existing \_\_init\_\_.py file. This registration code contains default input values for the simulation. It's not necessary to change any of these values as they will all be specified at run-time.
 
 **#2. gym_envs_wargame**
 
 /home/alanubuntu/anaconda3/envs/spinningup/lib/python3.6/site-packages/gym/envs/wargame/
 
-This folder contains two files: \__init\__.py and RL_ENV.py.
+This folder contains two files: \_\_init\_\_.py and RL_ENV.py.
 RL_ENV.py contains the definitions for environment, actions, etc. required to run this particular simulation in Spinning UP.
-\__init\__.py imports the main class from RL_ENV.py
+\_\_init\_\_.py imports the main class from RL_ENV.py
 
 You may need to specify the output location for the epoch logger, Elogger. It's at the top of the RL_ENV.py code.
 I hard-coded the output location and file name later in the Lanchester() class. You will need to update the address but leave the file name as-is. You can find it easily by searching for:
