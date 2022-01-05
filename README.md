@@ -1,4 +1,4 @@
-Python code for executing simulations used in the "Training Intelligent Red Team Agents Via Deep Reinforcement Learning" project. 
+# Python code for executing simulations used in the "Training Intelligent Red Team Agents Via Deep Reinforcement Learning" project. 
 
 This code uses the OpenAi Spinning Up platform and requires the installation of Python3, OpenAI Gym, and OpenMI. Instructions for installation can be found here: https://spinningup.openai.com/en/latest/user/installation.html
 
