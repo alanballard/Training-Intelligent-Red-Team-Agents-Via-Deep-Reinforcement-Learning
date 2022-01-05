@@ -1,6 +1,6 @@
 # Python code for executing simulations used in the "Training Intelligent Red Team Agents Via Deep Reinforcement Learning" project. 
 
-This code uses the OpenAi Spinning Up platform and requires the installation of Python3, OpenAI Gym, and OpenMI. Instructions for installation can be found here: https://spinningup.openai.com/en/latest/user/installation.html
+This code uses the OpenAi Spinning Up platform and requires the installation of Python3, OpenAI Gym, and OpenMPI. Instructions for installation can be found here: https://spinningup.openai.com/en/latest/user/installation.html
 
 Spinning Up currently only supports Linux and OSX. A link to a workaround for Windows is provided in the installation link above. The steps I actually followed to run Spinning Up on Windows can be found here:
 https://github.com/openai/spinningup/issues/343#issuecomment-876191439
